@@ -1,0 +1,33 @@
+# macOS / Windows / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Build artifacts (generate with scripts/build-package.py)
+dist/
+*.zip
+
+# Local experiments: never commit source videos or generated clips
+samples/
+*.mp4
+*.mov
+*.webm
+*.avi
+*.mkv
+*.gif
+
+# Secrets
+.env
+*.token
+*_token.txt

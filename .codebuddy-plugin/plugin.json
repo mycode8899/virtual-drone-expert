@@ -1,0 +1,71 @@
+{
+  "name": "virtual-drone-expert",
+  "version": "1.0.0",
+  "expertType": "agent",
+  "agentName": "virtual-drone-expert",
+  "agents": [
+    "agents/virtual-drone-expert.md"
+  ],
+  "displayName": {
+    "zh": "虚拟无人机拍摄专家",
+    "en": "Virtual Drone Shot Expert"
+  },
+  "title": {
+    "zh": "AI视频生成专家",
+    "en": "AI Video Generation Expert"
+  },
+  "profession": {
+    "zh": "AI视频生成专家",
+    "en": "AI Video Generation Expert"
+  },
+  "displayDescription": {
+    "zh": "上传任意视频，一键生成模仿 GTA6 或虚拟无人机跟拍风格的电影级空中视角视频。",
+    "en": "Upload any video to generate cinematic virtual drone follow shots inspired by GTA6-style aerial camera work."
+  },
+  "description": "A prompt-based expert that turns any uploaded video into a virtual drone-style follow shot. It analyses the subject, scene and motion, designs a virtual aerial camera path, and drives the host platform's video generation model to produce GTA6-style or Tesla Reality View-inspired footage. It ships no model weights or inference code; output is a stylised re-imagining rather than an accurate 3D reconstruction.",
+  "categoryId": "04-DataAI",
+  "tags": [
+    {
+      "zh": "视频生成",
+      "en": "Video Generation"
+    },
+    {
+      "zh": "无人机视角",
+      "en": "Drone View"
+    },
+    {
+      "zh": "AI特效",
+      "en": "AI Effects"
+    },
+    {
+      "zh": "镜头设计",
+      "en": "Cinematography"
+    }
+  ],
+  "defaultInitPrompt": {
+    "zh": "请上传一段视频，我将为您设计虚拟无人机跟拍方案并生成视频。",
+    "en": "Please upload a video, and I will design a virtual drone follow shot and generate it for you."
+  },
+  "quickPrompts": [
+    {
+      "zh": "请上传一段视频，我将为您设计虚拟无人机跟拍方案并生成视频。",
+      "en": "Please upload a video, and I will design a virtual drone follow shot and generate it for you."
+    },
+    {
+      "zh": "将这段视频转换成 GTA6 风格的空中跟拍镜头。",
+      "en": "Convert this video into a GTA6-style aerial follow shot."
+    },
+    {
+      "zh": "生成一个虚拟无人机从后方跟随主体的电影感视频。",
+      "en": "Generate a cinematic virtual drone video following the subject from behind."
+    },
+    {
+      "zh": "用 FPV 低空高速视角重拍这段视频，4 秒。",
+      "en": "Re-shoot this as a 4-second low-altitude high-speed FPV clip."
+    },
+    {
+      "zh": "先给我 3 套机位方案，我选一套再生成。",
+      "en": "Give me three camera-path options first; I will pick one before generating."
+    }
+  ]
+}
